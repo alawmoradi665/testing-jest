@@ -6,6 +6,10 @@ function repeatMessage(message, repeatCount){
     return messageToShow;
 }
 
+console.log(repeatMessage('I am here', 3));
+
+
+
 module.exports = {
     repeatMessage
 }
